@@ -22,3 +22,15 @@ I’d been using my sphere as a stool. I traced counterclockwise circles on it w
 ```
 112
 ```
+# Solution
+```
+import re
+def word_count(s):
+    exec,count = ["a", "the", "on", "at", "of", "upon", "in", "as"],0
+    s = re.sub(r'[^A-Za-z]', ' ', s)
+    s = s.split()
+    for i in s:
+        if i.lower() not in exec:
+            count+=1
+    return count
+```
