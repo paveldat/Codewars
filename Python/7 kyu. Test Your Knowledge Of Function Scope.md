@@ -7,7 +7,7 @@ add(3)(4)  // 7
 add(12)(20) // 32
 ```
 
-# Решение
+# Solution
 ```
 def add(a):
     def addone(b):
