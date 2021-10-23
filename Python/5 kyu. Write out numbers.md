@@ -40,7 +40,6 @@ def number2words(n):
     k = 1000
     m = k * 1000
     b = m * 1000
-    t = b * 1000
 
     if (n < 20):
         return d[n]
